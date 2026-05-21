@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Excel temporary files
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+
+# MXL files (sensitive data)
+mxl_files/
+*.mxl
+
+# Excel data files (sensitive)
+*.xlsx
+*.xlsm
+*.xls
+
+# Log files
+*.log
+
+# Error reports
+error_report.xlsx
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Zip files
+*.zip
+
+# Test files
+
+# PyInstaller build files
+*.spec.bak
+*.pyc
+*.pyo
+*.pyd
+
+# Build artifacts
+build/
+
+# Installer files
+installer_output/
+*.dmg
+*.pkg
+dist/
+test_*.py

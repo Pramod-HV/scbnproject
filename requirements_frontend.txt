@@ -1,0 +1,17 @@
+# Frontend Requirements for AI-Powered Map Migration Accelerator
+# Desktop Application with PyQt6
+
+# Core GUI Framework
+PyQt6>=6.6.0
+PyQt6-Qt6>=6.6.0
+PyQt6-sip>=13.6.0
+
+# Backend dependencies (already in requirements.txt)
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Optional: For packaging
+# pyinstaller>=6.0.0
+
+# Optional: For enhanced UI
+# PyQt6-WebEngine>=6.6.0  # If you need web views
