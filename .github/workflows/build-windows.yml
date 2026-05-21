@@ -39,7 +39,7 @@ jobs:
         & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer_windows.iss
     
     - name: Upload installer artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: windows-installer
         path: installer_output/*.exe
@@ -47,7 +47,7 @@ jobs:
     
     - name: Upload build logs (if failed)
       if: failure()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: build-logs
         path: |
