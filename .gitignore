@@ -24,9 +24,7 @@ wheels/
 *.egg
 
 # Excel temporary files
-~$*.xlsx
-~$*.xlsm
-~$*.xls
+
 
 # MXL files (sensitive data)
 mxl_files/
